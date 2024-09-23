@@ -44,9 +44,6 @@ CMD ["nginx", "-g", "daemon off;"]
 # Build the Docker image (replace "my-web-app" with your preferred image name)
 docker build -t my-web-app .
 
-# Run the container on port 80
-docker run -d -p 80:80 my-web-app
-
 # push to docker hub
 docker login
 docker push TOBI/my-web-app:latest
