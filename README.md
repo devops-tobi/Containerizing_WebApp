@@ -15,7 +15,6 @@ touch style.css
 git init
 
 # Git commit
-.gitignore
 git add .
 git commit -m "Initial commit with basic HTML and CSS"
 
