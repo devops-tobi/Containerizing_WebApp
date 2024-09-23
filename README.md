@@ -8,13 +8,14 @@ mkdir my-web-app
 cd my-web-app
 
 # inside the directory create an HTML file (index.html) and a CSS file (styles.css)
-touch intex.html
+touch index.html
 touch style.css
 
 # Initialize Git
 git init
 
 # Git commit
+.gitignore
 git add .
 git commit -m "Initial commit with basic HTML and CSS"
 
